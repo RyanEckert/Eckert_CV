@@ -5,8 +5,8 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
-    css: ['resumeTEST.css']
+    self_contained: true
+    css: ['resume_custom.css']
 ---
 
 ```{r, setup, include = FALSE}
@@ -30,9 +30,9 @@ Contact Info {#contact}
 - <i class="fa fa-map"></i> 5600 US1 N, Ft. Pierce, FL 34946
 - <i class="fa fa-phone"></i> +1 (772) 224-2396
 - <i class="fa fa-envelope"></i> ryan.j.eckert@gmail.com
-- <i class="fa fa-google"></i> [Ryan J Eckert](https://scholar.google.com/citations?user=cogphLkAAAAJ&)  
-- <i class="fa fa-github"></i> [RyanEckert](https://github.com/RyanEckert)  
-- <i class="fa fa-twitter"></i> [CnidaRyan](https://twitter.com/CnidaRyan)
+- <i class="fa fa-google"></i> [Ryan J Eckert](https://scholar.google.com/citations?user=cogphLkAAAAJ&){target="_blank"}  
+- <i class="fa fa-github"></i> [RyanEckert](https://github.com/RyanEckert){target="_blank"}  
+- <i class="fa fa-twitter"></i> [CnidaRyan](https://twitter.com/CnidaRyan){target="_blank"}
 
 
 Skills {#skills}
@@ -47,8 +47,6 @@ Skills {#skills}
 - NGS Library prep
 - Bioinformatic analysis
 - Github, Bash, R, Python
-
-
 
 
 Main
@@ -708,7 +706,7 @@ N/A
 :::
 
 
-Disclaimer {#disclaimer style="width: var(--sidebar-width); padding-left: var(--sidebar-horizontal-padding); text-align: left"}
+Disclaimer {#disclaimer style="width: var(--sidebar-width); padding-left: var(--sidebar-horizontal-padding)"}
 --------------------------------------------------------------------------------
 
 This curriculum vitae was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).

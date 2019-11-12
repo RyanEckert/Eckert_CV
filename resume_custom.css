@@ -226,6 +226,8 @@ h1, h2{
 .break-after-me{
   break-after: page;
 }
+
+
 /*
  * XXX: Use two filled circles to achieve the circle-with-white-border effect.
  * The normal technique of only using one pseudo element and
