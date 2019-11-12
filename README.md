@@ -9,6 +9,7 @@ Ryan J. Eckert - pagedown Curriculum Vitae
 This repository contains the files necessary to re-create a curriculum vitae using Rmarkdown and [pagedown](https://pagedown.rbind.io/).
 
 See repo by [Nick Strayer](https://github.com/nstrayer/cv) for information on how to modify to build your own CV/resumé.
+
 ------------------------------------------------------------------------
 
 #### [View the html CV here](https://ryaneckert.github.io/cv/)<br>
