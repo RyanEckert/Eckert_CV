@@ -223,10 +223,17 @@ h1, h2{
   border-left: var(--decorator-border);
 }
 
+.blocks {
+  break-inside: avoid;
+}
+
 .break-after-me{
   break-after: page;
 }
 
+.break-before-me{
+  break-before: page;
+}
 /*
  * XXX: Use two filled circles to achieve the circle-with-white-border effect.
  * The normal technique of only using one pseudo element and
@@ -322,7 +329,7 @@ h1, h2{
 #main li::before{
   position: relative;
   margin-left: -4.25pt;
-  content: '• ';
+  content: ' ';
 }
 
 .aside li::before {
