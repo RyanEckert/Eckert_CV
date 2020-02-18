@@ -16,6 +16,6 @@ See repo by [Nick Strayer](https://github.com/nstrayer/cv) for information on ho
 
 #### or
 
-#### [Download a .PDF version here](https://github.com/RyanEckert/Eckert_CV/raw/master/RJEckert_CV.pdf)<br>
+#### [Download a .PDF version here](https://github.com/RyanEckert/Eckert_CV/raw/master/Ryan_J_Eckert_curriculum_vitae.pdf)<br>
 
 
