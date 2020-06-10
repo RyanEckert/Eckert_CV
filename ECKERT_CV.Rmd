@@ -1,5 +1,5 @@
 ---
-title: "Ryan J. Eckert"
+title: "Ryan J. Eckert curriculum vitae"
 author: Ryan J. Eckert
 date: "`r Sys.Date()`"
 output:
@@ -12,14 +12,14 @@ output:
 ```{r, setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(scholar)
+library(icon)
 cites = scholar::get_profile("cogphLkAAAAJ&")
 ```
-
 
 Aside
 ================================================================================
 
-![Ryan Eckert](/Users/ryaneckert/Desktop/TEST/rje.png){width=100%}
+![Ryan Eckert](rje.png){width=100%}
 
 Ph.D. student specializing in coral reef ecology, mesophotic coral ecosystems, molecular ecology, and multivariate data analysis.
 
@@ -30,10 +30,10 @@ Contact Info {#contact}
 - <i class="fa fa-map"></i> 5600 US1 N, Ft. Pierce, FL 34946
 - <i class="fa fa-phone"></i> +1 (772) 224-2396
 - <i class="fa fa-envelope"></i> ryan.j.eckert@gmail.com
-- <i class="fa fa-google"></i> [Ryan J Eckert](https://scholar.google.com/citations?user=cogphLkAAAAJ&){target="_blank"}  
+- `r icon::ai("google-scholar-square")` [Ryan J Eckert](https://scholar.google.com/citations?user=cogphLkAAAAJ&){target="_blank"}  
 - <i class="fa fa-github"></i> [RyanEckert](https://github.com/RyanEckert){target="_blank"}  
 - <i class="fa fa-twitter"></i> [CnidaRyan](https://twitter.com/CnidaRyan){target="_blank"}
-
+- <i class="fa fa-laptop"></i> [ryanjeckert.weebly.com](http://www.ryanjeckert.weebly.com){target="_blank"}
 
 Skills {#skills}
 --------------------------------------------------------------------------------
@@ -41,17 +41,18 @@ Skills {#skills}
 - Coral reef ecology
 - Technical SCUBA diving
 - 750+ Scientific Dives
-- 350+ Days at Sea
+- 400+ Days at Sea
 - 90+ research expeditions
 - Multivariate data analysis
 - NGS Library prep
 - Bioinformatic analysis
 - Github, Bash, R, Python
 
+<br><br>
+[<i class='fas fa-download'></i> Donwnload CV as a PDF](https://github.com/RyanEckert/Eckert_CV/raw/master/Ryan_J_Eckert_curriculum_vitae.pdf){target="_blank"}
 
 Main
 ================================================================================
-
 
 Ryan J. **Eckert** {#title}
 --------------------------------------------------------------------------------
@@ -67,7 +68,7 @@ Florida Atlantic University
 
 Boca Raton, FL
 
-2019 - expected 2024
+expected 2024 - 2019
 
 Advisor: Dr. Joshua Voss
 
@@ -76,7 +77,7 @@ Florida Atlantic University
 
 Boca Raton, FL
 
-2017 - 2019
+2019 - 2017
 
 Thesis: Population genetics and algal symbiont communities of the coral species *Montastraea cavernosa* on the Belize Barrier Reef<br>
 Advisor: Dr. Joshua Voss
@@ -86,7 +87,7 @@ Florida State University
 
 Tallahassee, FL
 
-2005 - 2009
+2009 - 2005
 
 Thesis: Associational resistance and susceptibility in *Solanum carolinense*
 
@@ -100,7 +101,7 @@ FAU, Harbor Branch Oceanographic Institute
 
 Ft. Pierce, FL
 
-2017 - present
+Present - 2017
 
 Voss Laboratory
 
@@ -110,7 +111,7 @@ NOAA’s Flower Garden Banks NMS
 
 Galveston, TX
 
-2009 - 2017 
+2017 - 2009 
 
 Science Division
 
@@ -120,12 +121,12 @@ Florida State University
 
 Tallahassee, FL
 
-2007 - 2009
+2009 - 2007
 
 Underwood Laboratory
 
 
-Teaching Experience {data-icon=school .break-after-me}
+Teaching Experience {data-icon=school}
 --------------------------------------------------------------------------------
 
 ### Graduate Teaching Assistant
@@ -142,7 +143,7 @@ Texas A&M University at Galveston
 
 Galveston, TX
 
-2013 - 2014
+2014 - 2013
 
 Scientific Diving Field Survey Methods
 
@@ -181,10 +182,29 @@ Currently a graduate student at University of Central Florida
 
 Refereed Publications {data-icon=newspaper}
 --------------------------------------------------------------------------------
+### 11. Depth influences Symbiodiniaceae associations among <br>*Montastraea cavernosa* corals on the Belize Barrier Reef
 
-### 8. Populations of the coral species *Montastraea cavernosa* on the Belize Barrier Reef lack vertical connectivity
+*Front Microbiol* (2020). [doi:10.3389/fmicb.2020.00518](https://doi.org/doi:10.3389/fmicb.2020.00518){target=_blank}
 
-*Sci Rep* (2019). doi:10.1038/s41598-019-43479-x
+N/A
+
+2020
+
+**Eckert RJ**, Reaume AM, Sturm AB, Studivan MS, and Voss JD 
+
+### 10. Population structure of the scleractinian coral, *Montastraea cavernosa*, in Southeast Florida
+
+*Bull Mar Sci* (2020). [doi:10.5343/bms.2019.0074](https://doi.org/10.5343/bms.2019.0074){target=_blank}
+
+N/A
+
+2020
+
+Dodge DL, Studivan MS, **Eckert RJ**, Chei E, Beal J, Voss JD
+
+### 9. Populations of the coral species *Montastraea cavernosa* on the Belize Barrier Reef lack vertical connectivity
+
+*Sci Rep* (2019). [doi:10.1038/s41598-019-43479-x](https://doi.org/10.1038/s41598-019-43479-x){target=_blank}
 
 N/A
 
@@ -201,9 +221,9 @@ N/A
 - **i10-index: `r cites$i10_index`**
 :::
 
-### 7. The Mesoamerican Reef 
+### 8. The Mesoamerican Reef 
 
-In: Loya Y., Puglise K.A., Bridge T.C.L. (eds) Mesophotic Coral Ecosystems of the World. Springer International Publishing, Cham, pp 71–84. doi:10.1007/978-3-319-92735-0_5
+In: Loya Y, Puglise KA, Bridge TCL (eds) Mesophotic Coral Ecosystems of the World. Springer International Publishing, Cham, pp 71–84. [doi:10.1007/978-3-319-92735-0_5](https://doi.org/10.1007/978-3-319-92735-0_5){target=_blank}
 
 N/A
 
@@ -211,9 +231,9 @@ N/A
 
 Gress E, Voss JD, **Eckert RJ**, Rowlands G, Andradi-Brown DA
 
-### 6. Coral bleaching and recovery from 2016 to 2017 at East and West Flower Garden Banks, Gulf of Mexico
+### 7. Coral bleaching and recovery from 2016 to 2017 at East and West Flower Garden Banks, Gulf of Mexico
 
-*Coral Reefs* (2019). doi:10.1007/s00338-019-01788-7
+*Coral Reefs* (2019). [doi:10.1007/s00338-019-01788-7](https://doi.org/10.1007/s00338-019-01788-7){target=_blank}
 
 N/A
 
@@ -221,9 +241,9 @@ N/A
 
 Johnston MA, Hickerson EL, Nuttall MF, Blakeway RD, Sterne TK, **Eckert RJ**, Schmahl GP
 
-### 5. Localized coral reef mortality event at East Flower Garden Bank, Gulf of Mexico
+### 6. Localized coral reef mortality event at East Flower Garden Bank, Gulf of Mexico
 
-*Bull Mar Sci* (2019). doi:10.5343/bms.2018.0057
+*Bull Mar Sci* (2019). [doi:10.5343/bms.2018.0057](https://doi.org/10.5343/bms.2018.0057){target=_blank}
 
 N/A
 
@@ -231,9 +251,9 @@ N/A
 
 Johnston MA, Nuttall MF, **Eckert RJ**, Blakeway RD, Sterne TK, Hickerson EL, Schmahl GP, Lee MT, MacMillan J, Embesi JA
 
-### 4. Seasonal variability of carbonate chemistry and decadal changes in waters of a marine sanctuary in the Northwestern Gulf of Mexico
+### 5. Seasonal variability of carbonate chemistry and decadal changes in waters of a marine sanctuary in the Northwestern Gulf of Mexico
 
-*Mar Chem* (2018). doi:10.1016/j.marchem.2018.07.006
+*Mar Chem* (2018). [doi:10.1016/j.marchem.2018.07.006](https://doi.org/10.1016/j.marchem.2018.07.006){target=_blank}
 
 N/A
 
@@ -241,9 +261,9 @@ N/A
 
 Hu X, Nuttall MF, Wang H, Yao H, Staryk CJ, McCutcheon MR, **Eckert RJ**, Embesi JA, Johnston MA, Hickerson EL, Schmahl GP, Manzello D, Enochs IC, DiMarco S, Barbero L
 
-### 3. Persistence of coral assemblages at East and West Flower Garden Banks, Gulf of Mexico
+### 4. Persistence of coral assemblages at East and West Flower <br>Garden Banks, Gulf of Mexico
 
-*Coral Reefs* (2016). doi:10.1007/s00338-016-1452-x
+*Coral Reefs* (2016). [doi:10.1007/s00338-016-1452-x](https://doi.org/10.1007/s00338-016-1452-x){target=_blank}
 
 N/A
 
@@ -251,9 +271,9 @@ N/A
 
 Johnston MA, Embesi JA, **Eckert RJ**, Nuttall MF, Hickerson EL, Schmahl GP
 
-### 2. Rapid invasion of Indo-Pacific lionfishes *Pterois volitans* (Linnaeus, 1758) and *P. miles* (Bennett, 1828) in Flower Garden Banks National Marine Sanctuary, Gulf of Mexico, documented in multiple data sets
+### 3. Rapid invasion of Indo-Pacific lionfishes *Pterois volitans* <br>(Linnaeus, 1758) and *P. miles* (Bennett, 1828) in Flower Garden Banks National Marine Sanctuary, Gulf of Mexico, documented in multiple data sets
 
-*BioInvasions Rec* (2016). doi:10.3391/bir.2016.5.2.09 
+*BioInvasions Rec* (2016). [doi:10.3391/bir.2016.5.2.09](https://doi.org/10.3391/bir.2016.5.2.09){target=_blank} 
 
 N/A
 
@@ -261,9 +281,9 @@ N/A
 
 Johnston MA, Nuttall MF, **Eckert RJ**, Embesi JA, Sterne TK, Hickerson EL, Schmahl GP
 
-### 1. Lionfish (*Pterois volitans* [Linnaeus, 1758] and *P. miles* [Bennett, 1828]) records within mesophotic depth ranges on natural banks in the Northwestern Gulf of Mexico 
+### 2. Lionfish (*Pterois volitans* [Linnaeus, 1758] and *P. miles* <br>[Bennett, 1828]) records within mesophotic depth ranges on <br>natural banks in the Northwestern Gulf of Mexico 
 
-*BioInvasions Rec* (2014). doi:10.3391/bir.2014.3.2.09
+*BioInvasions Rec* (2014). [doi:10.3391/bir.2014.3.2.09](https://doi.org/10.3391/bir.2014.3.2.09){target=_blank}
 
 N/A
 
@@ -271,34 +291,134 @@ N/A
 
 Nuttall MF, Johnston MA, **Eckert RJ**, Embesi JA, Hickerson EL, Schmahl GP
 
+### 1. Flower Garden Banks – A refuge in the Gulf of Mexico? 
+
+In: Yellowlees D, Hughes TP (eds) Proceedings of the 12th International Coral Reef Symposium (2012).
+
+N/A
+
+2012
+
+Hickerson EL, Schmahl GP, Johnston MA, Nuttall MF, Embesi JA, **Eckert RJ**
+
 Manuscripts in preparation {data-icon=pencil-alt}
 --------------------------------------------------------------------------------
+### Population genetic structure of Montastraea cavernosa corals in Cuba resolved using microsatellite and SNP markers
 
-### Population structure of the scleractinian coral, *Montastraea cavernosa*, in the Northern Florida Reef Tract
-
-*Bull Mar Sci* (in revision).
-
-N/A
-
-N/A
-
-Dodge DL, Chei E, Beal J, **Eckert RJ**, Voss JD 
-
-### Symbiodiniaceae community variation among *Montastraea cavernosa* populations along a depth gradient on the Belize Barrier Reef
-
-*Front Microbiol* (in prep).
+*Sci Rep* (in review).
 
 N/A
 
 N/A
 
-**Eckert RJ**, Reaume A, Sturm AB, Studivan MS, Voss JD
+Sturm AB, **Eckert RJ**, González Méndez J, González Díaz SP, Voss, JD
 
+### Benthic community composition of mesophotic coral ecosystems in the northwest Gulf of Mexico, with comparisons to Flower <br>Garden Banks National Marine Sanctuary
+
+*Front Mar Sci* (in prep).
+
+N/A
+
+N/A
+
+Voss JD, Studivan MS, **Eckert RJ**, Williams M, Clark RD
+
+Technical Reports {data-icon=book .break-before-me}
+--------------------------------------------------------------------------------
+### Stetson Bank Long-term monitoring: 2016 annual report
+
+Marine Sanctuaries Conservation Series ONMS-19-02. U.S. Department of Commerce, NOAA, FGBNMS, Galveston, TX.
+
+N/A
+
+2018
+
+Nuttall MF, Sterne TK, **Eckert RJ**, Hu X, Sinclair J, Hickerson EL, Embesi JA, Johnston MA, Schmahl GP 
+
+### Long-term monitoring at East and West Flower Garden Banks: 2016 annual report 
+
+Marine Sanctuaries Conservation Series ONMS-17-09. U.S. Department of Commerce, NOAA, FGBNMS, Galveston, TX.
+
+N/A
+
+2017
+
+Johnston MA, Sterne TK, **Eckert RJ**, Nuttall MF, Embesi JA, Walker RD, Hu X, Hickerson EL, Schmahl GP
+
+### Long-term monitoring at Stetson Bank, Flower Garden Banks <br>National Marine Sanctuary, 2015 annual report
+
+Marine Sanctuaries Conservation Series ONMS-17- 06. U.S. Department of Commerce, NOAA, FGBNMS, Galveston, TX.
+
+N/A
+
+2017
+
+Johnston MA, Sterne TK, **Eckert RJ**, Nuttall MF, Embesi JA, Walker RD, Hu X, Hickerson EL, Schmahl GP
+
+### Long-term monitoring at the East and West Flower Garden Banks National Marine Sanctuary, 2013–2015, volume 1: technical report 
+
+U.S. Dept. of Interior, Bureau of Ocean Energy Management, Gulf of Mexico OCS Region, New Orleans, LA. OCS Study BOEM 2017-058.
+
+N/A
+
+2017
+
+Johnston MA, **Eckert RJ**, Nuttall MF, Sterne TK, Embesi JA, Manzello DP, Hickerson EL, Schmahl GP 
+
+### Long-term monitoring at East and West Flower Garden Banks: 2015 annual report
+
+U.S. Marine Sanctuaries Conservation Series ONMS-16-02. U.S. Department  of  Commerce,  National  Oceanic  and  Atmospheric  Administration,  Flower  Garden  Banks  National Marine Sanctuary, Galveston, TX.
+
+N/A
+
+2016
+
+Johnston MA, **Eckert RJ**, Sterne TK, Nuttall MF, Hu X, Embesi JA, Hickerson EL, Schmahl GP
+
+### Long-term monitoring at East and West Flower Garden Banks <br>National Marine Sanctuary: 2014 annual report
+
+U.S. Department of Commerce, NOAA, FGBNMS, Galveston, TX.
+
+N/A
+
+2015
+
+Johnston MA, Sterne TK, **Eckert RJ**, Nuttall MF, Embesi JA, Walker RD, Hu X, Hickerson EL, Schmahl GP
+
+### Long-term monitoring at East and West Flower Garden Banks <br>National Marine Sanctuary, 2011–2012, volume 1: technical report
+
+U.S. Dept. of Interior, Bureau of Ocean Energy Management, Gulf of Mexico OCS Region, New Orleans, Louisiana. OCS Study BOEM 2015-027.
+
+N/A
+
+2015
+
+Johnston MA, Nuttall MF, **Eckert RJ**, Embesi JA, Slowey NC, Hickerson EL, Schmahl GP
+
+### Long-term monitoring at East and West Flower Garden Banks <br>National Marine Sanctuary: 2013 annual report
+
+U.S. Department of Commerce, NOAA, FGBNMS, Galveston, TX.
+
+N/A
+
+2014
+
+Johnston MA, Nuttall MF, **Eckert RJ**, Embesi JA.
+
+### Long-term monitoring at the East and West Flower Garden Banks National Marine Sanctuary, 2009–2010, volume 1: technical report
+
+U.S. Dept. of Interior, Bureau of Ocean Energy Management, Gulf of Mexico OCS Region, New Orleans, Louisiana. OCS Study BOEM 2013-214.
+
+N/A
+
+2013
+
+Johnston MA, Nuttall MF, **Eckert RJ**, Embesi JA, Slowey NC, Hickerson EL, Schmahl GP
 
 Presentations {data-icon=comment-alt}
 --------------------------------------------------------------------------------
 
-### Genetically distinct depth-stratified *Montastraea cavernosa* coral populations on the Belize Barrier Reef harbor relatively homogenous Symbiodiniaceae communities 
+### Genetically distinct depth-stratified *Montastraea cavernosa* coral populations on the Belize Barrier Reef harbor relatively <br>homogenous Symbiodiniaceae communities 
 
 48th Annual Benthic Ecology Meeting
 
@@ -309,7 +429,7 @@ St. John’s, NL, Canada
 **Eckert RJ**, Reaume A, Voss JD<br>
 **Oral presentation**
  
-### Populations of the coral species *Montastraea cavernosa* lack vertical connectivity on the Belize Barrier Reef
+### Populations of the coral species *Montastraea cavernosa* lack <br>vertical connectivity on the Belize Barrier Reef
 
 ASLO Aquatic Sciences Meeting
 
@@ -333,7 +453,7 @@ Ft. Pierce, FL.
 
 ### Connected corals: population genetics of *Montastraea cavernosa* on the Belize Barrier Reef
 
-HBOI Ocean Discovery Visitors Center Marine Science Fridays
+HBOI Ocean Discovery Center Marine Science Friday
 
 Ft. Pierce, FL.
 
@@ -342,7 +462,7 @@ Ft. Pierce, FL.
 **Eckert RJ**<br>
 **Oral presentation**
 
-### Breaking point: population genetics reveal a lack of vertical connectivity of *Montastraea cavernosa* on the Belize Barrier Reef
+### Breaking point: population genetics reveal a lack of vertical <br>connectivity of *Montastraea cavernosa* on the Belize Barrier Reef
 
 47th Annual Benthic Ecology Meeting 
 
@@ -375,6 +495,33 @@ Gainesville, FL.
 **Eckert RJ**, Kim T, Underwood N<br>
 **Poster presentation**
 
+Awards {data-icon=award}
+--------------------------------------------------------------------------------
+
+### Florida Atlantic University Presidential Fellow
+
+N/A
+
+N/A
+
+2021 - 2019
+
+### Florida State University Dean’s List
+
+N/A
+
+N/A
+
+2009 - 2006
+
+### Florida State University President’s List
+
+N/A
+
+N/A
+
+2005
+<br>
 
 Funding {data-icon=money-bill}
 --------------------------------------------------------------------------------
@@ -385,7 +532,7 @@ $10,000
 
 N/A
 
-2019 - 2021
+2021 - 2019
 
 ### FAU GPSA Travel Awards
 
@@ -393,7 +540,7 @@ $1,600
 
 N/A
 
-2018 - 2019
+2019 - 2018
 
 ### FAU Thesis Award
 
@@ -425,7 +572,7 @@ $14,850
 
 N/A
 
-2005 - 2009
+2009 - 2005
 
 ### Florida State University Freshman Academic Scholarship
 
@@ -433,46 +580,18 @@ $8,000
 
 N/A
 
-2005 - 2009
+2009 - 2005
 
-### Florida State University Freshman Advanced Placement Scholarship
+### Florida State University Freshman AP Scholarship
 
 $500
 
 N/A
 
 2005
+<br>
 
-
-Awards {data-icon=award}
---------------------------------------------------------------------------------
-
-### Florida Atlantic University Presidential Fellow
-
-N/A
-
-N/A
-
-2019 - 2021
-
-### Florida State University Dean’s List
-
-N/A
-
-N/A
-
-2006 - 2009
-
-### Florida State University President’s List
-
-N/A
-
-N/A
-
-2005
-
-
-Certifications {data-icon=id-card}
+Certifications {data-icon=id-card .break-before-me}
 --------------------------------------------------------------------------------
 
 ### AAUS Scientific Diver 
@@ -539,17 +658,75 @@ N/A
 
 N/A
 
-### NOAA EEHS Hyperbaric Chamber Operator training
-
-N/A
-
-N/A
-
-N/A
-
-
-Membership and Service {data-icon=id-card-alt .break-after-me}
+Skills {data-icon=toolbox}
 --------------------------------------------------------------------------------
+
+### DNA and RNA extraction, PCR, qPCR, Gel electrophoresis, NGS library preparation
+N/A
+
+N/A
+
+N/A
+
+### Bioinformatic analyses, multivariate statistics, and data visualization
+R statistical software, Python, Bash, PRIMER7, and CPCe
+
+N/A
+
+N/A
+
+### Coral sampling, benthic surveys, fish surveys, photography, <br>navigation and mapping
+N/A
+
+N/A
+
+N/A
+
+### Offshore field research cruise planning, logistics, and execution
+N/A
+
+N/A
+
+N/A
+
+### Technical SCUBA diving, operation of Nitrox compressor systems, and Trimix blending
+N/A
+
+N/A
+
+N/A
+
+### Setup, operation, and maintenance of oceanographic equipment
+Sea-Bird Electronics, Onset HOBO, YSI
+
+N/A
+
+N/A
+
+### Adobe InDesign, Adobe Illustrator, and Adobe Photoshop
+N/A
+
+N/A
+
+N/A
+
+### Operation, navigation, and handling of small boats
+Marlinspike, and mooring buoy construction/installation/maintenance
+
+N/A
+
+N/A
+
+Membership and Service {data-icon=id-card-alt .break-before-me}
+--------------------------------------------------------------------------------
+### Mesophotic.org
+
+Content Editor
+
+N/A
+
+2020
+
 ### International Coral Reef Society
 
 N/A
@@ -574,94 +751,15 @@ N/A
 
 2018
 
+### Reviewer for: 
 
-Skills {data-icon=toolbox}
---------------------------------------------------------------------------------
-
-### Offshore field research cruise planning, logistics, and execution
-N/A
+Scientific Reports
 
 N/A
 
 N/A
 
-### Coral sampling, benthic surveys, fish surveys, photography, navigation and mapping
-N/A
-
-N/A
-
-N/A
-
-### DNA and RNA extraction, PCR, qPCR, Gel electrophoresis, NGS library preparation
-N/A
-
-N/A
-
-N/A
-
-### Data visualization, CPCe, Primer7, Python, Bash, and R statistical software
-N/A
-
-N/A
-
-N/A
-
-### Bioinformatic and multivariate statistical analyses
-N/A
-
-N/A
-
-N/A
-
-### Technical SCUBA diving
-N/A
-
-N/A
-
-N/A
-
-### Operation, navigation, and handling of small boats
-N/A
-
-N/A
-
-N/A
-
-### Marlinspike, and mooring buoy construction/installation/maintenance
-N/A
-
-N/A
-
-N/A
-
-### Setup, operation, and maintenance of oceanographic equipment (Sea-Bird Electronics)
-N/A
-
-N/A
-
-N/A
-
-### Operation of Nitrox compressor systems and Trimix blending
-N/A
-
-N/A
-
-N/A
-
-### Adobe InDesign, Adobe Illustrator, and Adobe Photoshop
-N/A
-
-N/A
-
-N/A
-
-### Experience with National Resource Damage Assessment operations
-N/A
-
-N/A
-
-N/A
-
+<br>
 
 References {data-icon=user-friends}
 --------------------------------------------------------------------------------
@@ -676,7 +774,8 @@ N/A
 
 ::: concise
 - +1 (772) 242–2538<br>
-- jvoss2@fau.edu
+- <br>
+- <span style="padding-left:119px">jvoss2@fau.edu</span>
 :::
 
 ### Dr. Adrienne Simoes-Correa
@@ -689,7 +788,8 @@ N/A
 
 ::: concise
 - +1 (713) 348-3054<br>
-- ac53@rice.edu
+- <br>
+- <span style="padding-left:123px">ac53@rice.edu </span>
 :::
 
 ### G.P. Schmahl
@@ -702,13 +802,15 @@ N/A
 
 ::: concise
 - +1 (409) 621–5151<br>
-- george.schmahl@noaa.gov
+- <br>
+- <span style="padding-left:62px">george.schmahl@noaa.gov</span>
 :::
+
 
 
 Disclaimer {#disclaimer style="width: var(--sidebar-width); padding-left: var(--sidebar-horizontal-padding)"}
 --------------------------------------------------------------------------------
-
+<br><br>
 This curriculum vitae was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 Last updated on `r Sys.Date()`.
