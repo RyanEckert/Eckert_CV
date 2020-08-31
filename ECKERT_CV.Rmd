@@ -305,7 +305,7 @@ Manuscripts in preparation {data-icon=pencil-alt}
 --------------------------------------------------------------------------------
 ### Population genetic structure of the great star coral, Montastraea cavernosa, across the Cuban archipelago with comparisons between microsatellite and SNP markers
 
-*Sci Rep* (in revision).
+*Sci Rep* (in press).
 
 N/A
 
@@ -315,7 +315,7 @@ Sturm AB, **Eckert RJ**, González Méndez J, González Díaz SP, Voss, JD
 
 ### Quantifying impacts of stony coral tissue loss disease on corals in Southeast Florida through surveys and 3D photogrammetry
 
-*PLoS ONE* (submitted).
+*PLoS ONE* (in rewiew).
 
 N/A
 
@@ -671,7 +671,7 @@ N/A
 Skills {data-icon=toolbox}
 --------------------------------------------------------------------------------
 
-### DNA and RNA extraction, PCR, qPCR, Gel electrophoresis, NGS library preparation
+### DNA and RNA extraction, PCR, qPCR, Gel electrophoresis, NGS library preparation, Agilent Bioanalyzer (DNA, RNA)
 N/A
 
 N/A
