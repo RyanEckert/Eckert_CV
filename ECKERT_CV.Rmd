@@ -11,22 +11,22 @@ output:
 
 ```{r, setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(scholar)
-library(icon)
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load("scholar", "icon")
+
 cites = scholar::get_profile("cogphLkAAAAJ&")
 ```
 
 Aside
 ================================================================================
-
 ![Ryan Eckert](rje.png){width=100%}
 
 Ph.D. student specializing in coral reef ecology, mesophotic coral ecosystems, molecular ecology, and multivariate data analysis.
 
+[<i class='fas fa-download'></i> Donwnload CV as a PDF](https://github.com/RyanEckert/Eckert_CV/raw/master/Ryan_J_Eckert_curriculum_vitae.pdf){target="_blank"}
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
-
 - <i class="fa fa-map"></i> 5600 US1 N, Ft. Pierce, FL 34946
 - <i class="fa fa-phone"></i> +1 (772) 224-2396
 - <i class="fa fa-envelope"></i> ryan.j.eckert@gmail.com
@@ -37,7 +37,6 @@ Contact Info {#contact}
 
 Skills {#skills}
 --------------------------------------------------------------------------------
-
 - Coral reef ecology
 - Technical SCUBA diving
 - 750+ Scientific Dives
@@ -46,10 +45,12 @@ Skills {#skills}
 - Multivariate data analysis
 - NGS Library prep
 - Bioinformatic analysis
-- Github, Bash, R, Python
 
-<br><br>
-[<i class='fas fa-download'></i> Donwnload CV as a PDF](https://github.com/RyanEckert/Eckert_CV/raw/master/Ryan_J_Eckert_curriculum_vitae.pdf){target="_blank"}
+Language Skills {#language}
+--------------------------------------------------------------------------------
+<div class = 'skill-bar'style = "background:linear-gradient(to right,#83DDE0 90%,#d9d9d9 90% 100%)" >R</div>
+<div class = 'skill-bar'style = "background:linear-gradient(to right,#83DDE0 65%,#d9d9d9 65% 100%)" >Bash</div>
+<div class = 'skill-bar'style = "background:linear-gradient(to right,#83DDE0 30%,#d9d9d9 30% 100%)" >Python</div>
 
 Main
 ================================================================================
@@ -793,7 +794,7 @@ N/A
 ::: concise
 - +1 (772) 242–2538<br>
 - <br>
-- <span style="padding-left:119px">jvoss2@fau.edu</span>
+- <span style="padding-left:119px">**jvoss2@fau.edu**</span>
 :::
 
 ### Dr. Adrienne Simoes-Correa
@@ -807,7 +808,7 @@ N/A
 ::: concise
 - +1 (713) 348-3054<br>
 - <br>
-- <span style="padding-left:123px">ac53@rice.edu </span>
+- <span style="padding-left:123px">**ac53@rice.edu**</span>
 :::
 
 ### G.P. Schmahl
@@ -821,7 +822,7 @@ N/A
 ::: concise
 - +1 (409) 621–5151<br>
 - <br>
-- <span style="padding-left:62px">george.schmahl@noaa.gov</span>
+- <span style="padding-left:62px">**george.schmahl@noaa.gov**</span>
 :::
 
 

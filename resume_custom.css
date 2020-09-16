@@ -80,6 +80,13 @@ img{
   max-width: 100%;
 }
 
+a:link {
+  color: #3F86BC;
+}
+
+a:visited {
+  color: #C774E7;
+}
 #main{
   width: var(--main-width);
   padding: 0 0.25in 0 0.25in;
@@ -361,7 +368,7 @@ h1, h2{
 }
 
 .aside .level2{
-  margin-top: 0.5in;
+  margin-top: 0.25in;
 }
 
 #contact ul{
