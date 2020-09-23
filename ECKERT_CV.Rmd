@@ -183,6 +183,16 @@ Currently a graduate student at University of Central Florida
 
 Refereed Publications {data-icon=newspaper}
 --------------------------------------------------------------------------------
+### 12. Population genetic structure of the great star coral, *Montastraea cavernosa*, across the Cuban archipelago with comparisons between microsatellite and SNP markers.
+
+*Sci Rep* (2020). [doi:10.1038/s41598-020-72112-5](https://doi.org/10.1038/s41598-020-72112-5){target=_blank}
+
+N/A
+
+2020
+
+Sturm AB, **Eckert RJ**, Reaume AM,  Studivan MS, and Voss JD 
+
 ### 11. Depth influences Symbiodiniaceae associations among <br>*Montastraea cavernosa* corals on the Belize Barrier Reef
 
 *Front Microbiol* (2020). [doi:10.3389/fmicb.2020.00518](https://doi.org/doi:10.3389/fmicb.2020.00518){target=_blank}
@@ -304,16 +314,6 @@ Hickerson EL, Schmahl GP, Johnston MA, Nuttall MF, Embesi JA, **Eckert RJ**
 
 Manuscripts in preparation {data-icon=pencil-alt}
 --------------------------------------------------------------------------------
-### Population genetic structure of the great star coral, Montastraea cavernosa, across the Cuban archipelago with comparisons between microsatellite and SNP markers
-
-*Sci Rep* (in press).
-
-N/A
-
-N/A
-
-Sturm AB, **Eckert RJ**, González Méndez J, González Díaz SP, Voss, JD
-
 ### Quantifying impacts of stony coral tissue loss disease on corals in Southeast Florida through surveys and 3D photogrammetry
 
 *PLoS ONE* (in rewiew).
