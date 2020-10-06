@@ -1,3 +1,4 @@
+#!/usr/bin/env Rscript 
 # This script builds both the HTML and PDF versions of your CV
 
 # If you wanted to speed up rendering for googlesheets driven CVs you could use
@@ -7,7 +8,7 @@
 
 # Knit the HTML version
 if (!require("pacman")) install.packages("pacman")
-pacman::p_load("rmarkdown")
+pacman::p_load("rmarkdown", "pagedown")
 
 rmarkdown::render("Eckert_CV.Rmd",
                   params = list(pdf_mode = FALSE),
