@@ -5,4 +5,6 @@ git add *
 git commit -m "update cv"
 git push origin master
 
-echo "Done"
+echo " "
+echo " "
+echo "DONE!"
