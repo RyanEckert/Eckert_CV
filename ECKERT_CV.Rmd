@@ -149,7 +149,7 @@ CV %<>% print_publication('in_prep')
 ```
 
 
-Technical Reports {data-icon=book .break-before-me}
+Technical Reports {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -165,14 +165,6 @@ CV %<>% print_presentation('presentation')
 ```
 
 
-Awards {data-icon=award}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('award')
-```
-
-
 Funding {data-icon=money-bill}
 --------------------------------------------------------------------------------
 
@@ -181,15 +173,15 @@ CV %<>% print_section('funding')
 ```
 
 
-Certifications {data-icon=id-card .break-before-me}
+Awards {data-icon=award .break-before-me}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('certification')
+CV %<>% print_section('award')
 ```
 
 
-Skills {data-icon=toolbox}
+Skills {data-icon=toolbox .break-after-me}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -197,7 +189,15 @@ CV %<>% print_section('skill')
 ```
 
 
-Membership and Service {data-icon=id-card-alt .break-before-me}
+Certifications {data-icon=id-card}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('certification')
+```
+
+
+Membership and Service {data-icon=id-card-alt}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -206,7 +206,7 @@ CV %<>% print_section('service')
 
 <br>
 
-References {data-icon=user-friends}
+References {data-icon=user-friends .break-before-me}
 --------------------------------------------------------------------------------
 
 ```{r}
