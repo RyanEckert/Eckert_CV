@@ -106,6 +106,7 @@ a:visited {
   float: right;
   position: absolute;
   right: 0;
+  margin-top: -.75in;
 }
 
 /* main */
