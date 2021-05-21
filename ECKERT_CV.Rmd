@@ -55,7 +55,7 @@ CV %<>% print_text_block("intro")
 if(params$pdf_mode){
   cat(" ")
 } else {
-  cat("[<i class='fas fa-download'></i> Donwnload CV as a PDF](https://github.com/RyanEckert/Eckert_CV/raw/master/Ryan_J_Eckert_curriculum_vitae.pdf){target='_blank'}")
+  cat("[<i class='fas fa-download'></i> Donwnload CV as PDF](https://github.com/RyanEckert/Eckert_CV/raw/master/Ryan_J_Eckert_curriculum_vitae.pdf){target='_blank'}")
 }
 ```
 
@@ -108,7 +108,7 @@ CV %<>% print_section('research_experience')
 ```
 
 
-Teaching Experience {data-icon=school .break-after-me}
+Teaching Experience {data-icon=school}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -173,11 +173,19 @@ CV %<>% print_section('funding')
 ```
 
 
-Awards {data-icon=award .break-before-me}
+Awards {data-icon=award}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('award')
+```
+
+
+Certifications {data-icon=id-card .break-before-me}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('certification')
 ```
 
 
@@ -189,14 +197,6 @@ CV %<>% print_section('skill')
 ```
 
 
-Certifications {data-icon=id-card}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('certification')
-```
-
-
 Membership and Service {data-icon=id-card-alt}
 --------------------------------------------------------------------------------
 
@@ -204,9 +204,9 @@ Membership and Service {data-icon=id-card-alt}
 CV %<>% print_section('service')
 ```
 
-<br>
+<br><br>
 
-References {data-icon=user-friends .break-before-me}
+References {data-icon=user-friends}
 --------------------------------------------------------------------------------
 
 ```{r}
