@@ -8,7 +8,7 @@
 ################################################################################
 
 Rscript render_cv.R
-git commit -a *
+git add *
 git commit -m "update cv"
 git push origin master
 echo " "
