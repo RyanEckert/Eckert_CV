@@ -18,7 +18,9 @@ knitr::opts_chunk$set(
 )
 
 if (!require("pacman")) install.packages("pacman")
-pacman::p_load("scholar", "icon", "magrittr", "googlesheets4")
+pacman::p_load("devtools")
+devtools::install_github("mitchelloharawild/icons")
+pacman::p_load("scholar", "magrittr", "icons", "googlesheets4")
 cites = scholar::get_profile("cogphLkAAAAJ&")
 source("cv_printing_functions.R")
 
@@ -27,6 +29,9 @@ CV <- create_CV_object(
   data_location = "https://docs.google.com/spreadsheets/d/1GTwWN0uoPiIhaAC6YFklg2uAkx6hHxW7G005OWUCliY/",  
   pdf_mode = params$pdf_mode
 )
+
+# Download icons
+download_academicons()
 
 ```
 
@@ -65,7 +70,7 @@ Contact {#contact}
 ```{r}
 CV %>% print_contact_info()
 ```
-- `r icon::ai("google-scholar-square")` [Ryan J Eckert](https://scholar.google.com/citations?user=cogphLkAAAAJ&){target="_blank"}
+- `r icons::academicons("google-scholar-square")` [Ryan J Eckert](https://scholar.google.com/citations?user=cogphLkAAAAJ&){target="_blank"}
 
 Skills {#skills}
 --------------------------------------------------------------------------------
@@ -141,7 +146,7 @@ CV %<>% print_publication('refereed_article')
 ```
 
 
-Manuscripts in preparation {data-icon=pencil-alt}
+Manuscripts in preparation {data-icon=pencil-alt .break-before-me}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -165,7 +170,7 @@ CV %<>% print_presentation('presentation')
 ```
 
 
-Funding {data-icon=money-bill}
+Funding {data-icon=money-bill .break-after-me}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -173,15 +178,7 @@ CV %<>% print_section('funding')
 ```
 
 
-Awards {data-icon=award}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('award')
-```
-
-
-Certifications {data-icon=id-card .break-before-me}
+Certifications {data-icon=id-card}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -197,6 +194,14 @@ CV %<>% print_section('skill')
 ```
 
 
+Awards {data-icon=award }
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('award')
+```
+
+
 Membership and Service {data-icon=id-card-alt}
 --------------------------------------------------------------------------------
 
@@ -204,7 +209,6 @@ Membership and Service {data-icon=id-card-alt}
 CV %<>% print_section('service')
 ```
 
-<br><br>
 
 References {data-icon=user-friends}
 --------------------------------------------------------------------------------
