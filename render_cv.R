@@ -7,7 +7,7 @@
 # for the HTML and PDF rendering. This exercise is left to the reader.
 
 # Knit the HTML version
-if (!require("pacman")) install.packages("pacman")
+if (!require("pacman")) install.packages("pacman",  repos='http://cran.us.r-project.org')
 pacman::p_load("rmarkdown", "pagedown")
 
 rmarkdown::render("Eckert_CV.Rmd",
