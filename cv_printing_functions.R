@@ -93,15 +93,15 @@ create_CV_object <-  function(data_location,
       no_end = is.na(end),
       has_end = !no_end,
       timeline = dplyr::case_when(
-        no_start  & no_end  ~ " ",
+        no_start  & no_end  ~ "N/A",
         no_start  & has_end ~ as.character(end),
         has_start & no_end  ~ paste("Present", "-", start),
         TRUE                ~ paste(end, "-", start)
       )
     ) %>%
     dplyr::arrange(desc(parse_dates(end))) %>%
-    dplyr::mutate_all(~ ifelse(is.na(.), ' ', .)) %>%
-    dplyr::mutate(timeline = ifelse(timeline == 1999, " ", timeline))
+    dplyr::mutate_all(~ ifelse(is.na(.), 'N/A', .)) %>%
+    dplyr::mutate(timeline = ifelse(timeline == 1999, "N/A", timeline))
   
   cv$publications %<>%
     dplyr::mutate(
