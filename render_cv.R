@@ -10,8 +10,6 @@
 if (!require("pacman")) install.packages("pacman",  repos='http://cran.us.r-project.org')
 pacman::p_load("rmarkdown", "pagedown")
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-
 rmarkdown::render("Eckert_CV.Rmd",
                   params = list(pdf_mode = FALSE),
                   output_file = "index.html")
