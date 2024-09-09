@@ -4,7 +4,8 @@ author: Ryan J. Eckert
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
-    value: false
+    css: ['resume_custom.css']
+    value: true
 output:
   pagedown::html_resume:
     css: ['resume_custom.css']
@@ -149,8 +150,8 @@ CV %<>% print_publication('refereed_article')
 Manuscripts in preparation {data-icon=pencil-alt .break-before-me}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %<>% print_publication('in_prep')
+```{r, include=TRUE}
+CV %<>% print_publication_prep('in_prep')
 ```
 
 
@@ -170,11 +171,18 @@ CV %<>% print_presentation('presentation')
 ```
 
 
-Funding {data-icon=money-bill .break-after-me}
+Funding {data-icon=money-bill}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('funding')
+```
+
+Awards {data-icon=award }
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('award')
 ```
 
 
@@ -186,19 +194,11 @@ CV %<>% print_section('certification')
 ```
 
 
-Skills {data-icon=toolbox .break-after-me}
+Skills {data-icon=toolbox}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('skill')
-```
-
-
-Awards {data-icon=award }
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('award')
 ```
 
 
