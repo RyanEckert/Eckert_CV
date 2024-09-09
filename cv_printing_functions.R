@@ -179,6 +179,28 @@ N/A
 }
 
 
+print_publication_prep <- function(cv, section_id, glue_template = "pub"){
+  if(glue_template == "pub"){
+    glue_template <- "
+### {title}
+
+N/A
+
+N/A
+
+N/A
+
+{authors} 
+\n\n\n"
+  }
+  
+  section_data <- dplyr::filter(cv$publications, section == section_id)
+  
+  print(glue::glue_data(section_data, glue_template))
+  
+  invisible(cv)
+}
+
 #######
 
 #' @description Take a position data frame and the section id desired and prints the section to markdown.
