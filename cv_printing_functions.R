@@ -328,7 +328,6 @@ print_references <- function(cv){
       N/A
 
       ::: concise
-      - {phone}<br>
       - <br>
       - <span style='padding-left:62px'>**{email}**</span>
       :::"
