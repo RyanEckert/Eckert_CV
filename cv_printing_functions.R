@@ -325,10 +325,9 @@ print_references <- function(cv){
 
       N/A
 
-      N/A"
+      N/A
+      "
       ) %>% print()
   
   invisible(cv)
 }
-
-### {title}
