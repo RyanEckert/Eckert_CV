@@ -184,7 +184,7 @@ print_publication_prep <- function(cv, section_id, glue_template = "pub"){
     glue_template <- "
 ### {title}
 
-N/A
+*{journal}*
 
 N/A
 
