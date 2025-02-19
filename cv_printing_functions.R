@@ -323,10 +323,10 @@ print_references <- function(cv){
 
       {position}
 
-      {institution}
-
       N/A
 
+      {institution}
+      
       ::: concise
       - <br>
       - <span style='padding-left:62px'>**{email}**</span>
