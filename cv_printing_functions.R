@@ -321,11 +321,11 @@ print_references <- function(cv){
       cv$references,
       "### {person}
 
-      {position}
+      {position}<br>{institution}<br>{email}
 
       N/A
 
-      {institution}
+      N/A
       
       ::: concise
       - <br>
@@ -334,4 +334,6 @@ print_references <- function(cv){
       ) %>% print()
   
   invisible(cv)
-  }
+}
+
+### {title}
